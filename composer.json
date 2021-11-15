@@ -1,0 +1,32 @@
+{
+    "name": "the_alex_mark/laravel-logging",
+    "version": "1.0",
+    "description": "Дополнительные реализации форматов журнала для проектов «Laravel»",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Макаров Александр",
+            "email": "the_alex_mark@mail.ru",
+            "homepage": "https://the-alex-mark.ru"
+        }
+    ],
+    "keywords": [ "laravel", "monolog", "logging", "json" ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-json": "*",
+        "monolog/monolog": "^2.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.23"
+    },
+    "autoload": {
+        "files": [
+            "helpers/data.php"
+        ],
+        "psr-4": {
+            "ProgLib\\Logging\\": "src/"
+        }
+    }
+}
