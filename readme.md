@@ -24,7 +24,7 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use Monolog\Processor\HostnameProcessor;
 use Monolog\Processor\WebProcessor;
-use ProgLib\Logging\CustomizeJsonLogger;
+use ProgLib\Logging\Via\CustomizeJsonLogger;
 
 class AppServiceProvider extends ServiceProvider {
 
@@ -61,7 +61,7 @@ class AppServiceProvider extends ServiceProvider {
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use ProgLib\Logging\CustomizeLineFormatter;
+use ProgLib\Logging\Taps\CustomizeLineFormatter;
 
 class AppServiceProvider extends ServiceProvider {
 

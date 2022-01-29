@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgLib\Logging\Handler;
+namespace ProgLib\Logging;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;

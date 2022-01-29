@@ -1,3 +1,7 @@
+# Project
+composer.lock
 /vendor
+
+# Editors
 /.idea
 /.vscode
