@@ -1,6 +1,6 @@
 {
     "name": "the_alex_mark/laravel-logging",
-    "version": "2.0",
+    "version": "2.1",
     "description": "Дополнительные реализации форматов журнала для проектов «Laravel»",
     "license": "MIT",
     "type": "library",
@@ -12,6 +12,7 @@
         }
     ],
     "keywords": [ "laravel", "monolog", "logging", "json" ],
+    "minimum-stability": "stable",
     "require": {
         "php": "^7.3|^8.0",
         "ext-json": "*",
